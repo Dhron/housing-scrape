@@ -1,12 +1,14 @@
 from Scraper import Scraper
 
-DRIVER_PATH = "./chromedriver"
-SOURCE_URL = "https://sfbay.craigslist.org/d/apts-housing-for-rent/search/apa"
+DRIVER_PATH = "../chromedriver"
 MODEL_SRC = "./queryModelSample.json"
 
 def main():
+    print("--- Scraper Init ---")
     scraper = Scraper(DRIVER_PATH, MODEL_SRC)
-    print("hello")
+    print("--- Scraper Run --- ")
+    scraper.scrape()
+    print("--- Scraper End --- ")
 
 if __name__ == "__main__":
     main()

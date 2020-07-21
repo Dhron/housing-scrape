@@ -1,6 +1,6 @@
 {
     "queries": [{
-        "source": "sfbay.craigslist.org",
+        "source": "https://sfbay.craigslist.org/d/apts-housing-for-rent/search/apa",
         "max_units": 20,
         "price_low": 0,
         "price_high": 1000,

@@ -1,0 +1,10 @@
+{
+    "queries": [{
+        "source": "sfbay.craigslist.org",
+        "max_units": 20,
+        "price_low": 0,
+        "price_high": 1000,
+        "other_location": null,
+        "keywords": ["furnished"]
+    }]
+}

@@ -1,9 +1,10 @@
 {
     "queries": [{
         "source": "https://sfbay.craigslist.org/d/apts-housing-for-rent/search/apa",
+        "location_query": "Mountain View",
         "max_units": 20,
         "price_low": 0,
-        "price_high": 1000,
+        "price_high": 1200,
         "other_location": null,
         "keywords": ["furnished"]
     }]
